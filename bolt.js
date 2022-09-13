@@ -25,3 +25,5 @@ app.message('おみくじ', ({message, say}) => {
 });
 
 app.start();
+
+const port = process.env.PORT || 8000;
